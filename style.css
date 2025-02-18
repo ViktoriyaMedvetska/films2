@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header{
+    font-family: 'Playfair Display';
+}
+
+header h1{
+font-weight:600;
+font-size:43px;
+line-height:25px ;
+text-align: center;
+margin-top: 40px;
+}
+
+header h3{
+font-weight: 600;
+font-size: 18px;
+line-height:25px ;
+text-align: center;
+margin-top:45px;
+margin-bottom: 50px;
+}
+
+.line-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.m1{
+    width: 30%;
+    width: 400px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    margin-right: 12px;
+    margin-left: 80px;
+    line-height: 21px;
+}
+
+.m2{
+    width: 30%;
+    display: block;
+    justify-content: right;
+    margin: auto;
+    margin-left: 80px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.m3{
+    width: 30%;
+    width: 400px;
+    font-family: 'Playfair Display';
+    font-weight: 500; 
+    line-height: 21px;
+}
+
+.m4{    
+    width: 30%;
+    font-family: 'Playfair Display';
+    font-weight: 500; 
+    margin-right: 80px;
+    margin-left: 10px;
+    line-height: 21px;
+}
+
+.m5{
+    width: 30%;
+    width: 400px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    margin-right: 12px;
+    margin-left: 80px;
+    line-height: 21px;
+}
+
+.m6{
+    width: 30%;
+    width: 400px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    margin-right: 12px;
+    margin-left: 80px;
+    line-height: 21px;
+}
+
+
+.line-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+header div{
+    transform: scale(1);
+    transition:transform 0.3s linear ;
+}
+
+header div:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-bottom: 4px;
+    transform: scale(1.1);       
+}
+
+.m1 a{
+    text-decoration: none; color: rgb(255, 207, 13) ;
+}
+
+.m4 a{
+    text-decoration: none; color: rgb(155, 9, 9);
+}
+
+.m3 a{
+    text-decoration: none; color: rgb(152, 47, 233);
+}
+
+.m2 a{
+    text-decoration: none; color: rgb(89, 63, 234);
+}
+
+.m5 a{
+    text-decoration: none; color: rgb(37, 10, 194);
+}
+
+.m6 a{
+    text-decoration: none; color: rgb(42, 153, 14);
+}
+
+.m1 img{
+    transform: scale(1);
+    transition:transform 0.2s linear ;
+}
+.m1 img:hover{
+    transform: scale(1.1);
+}
+
+.m2 img{
+    transform: scale(1);
+    transition:transform 0.2s linear ;
+}
+.m2 img:hover{
+    transform: scale(1.1);
+}
+
+.m3 img{
+    transform: scale(1);
+    transition:transform 0.2s linear ;
+}
+.m3 img:hover{
+    transform: scale(1.1);
+}
+
+.m4 img{
+    transform: scale(1);
+    transition:transform 0.2s linear ;
+}
+.m4 img:hover{
+    transform: scale(1.1);
+}
+
+.m5 img{
+    transform: scale(1);
+    transition:transform 0.2s linear ;
+}
+.m5 img:hover{
+    transform: scale(1.1);
+}
+
+.m6 img{
+    transform: scale(1);
+    transition:transform 0.2s linear ;
+}
+.m6 img:hover{
+    transform: scale(1.1);
+}
+
+.m1 p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.m2 p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.m3 p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.m4 p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.m5 p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.m6 p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
